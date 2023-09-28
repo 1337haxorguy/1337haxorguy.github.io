@@ -1,0 +1,23 @@
+/* gameOverStyles.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to the viewport height */
+    background-color: #f2f2f2; /* Background color for the entire screen */
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Text color */
+    margin-bottom: 20px;
+  }
+  
+  .winner {
+    font-size: 40px;
+    color: #ff5733; /* Winner's name color */
+  }
+  

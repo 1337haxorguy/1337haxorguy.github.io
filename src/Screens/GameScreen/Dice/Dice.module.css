@@ -1,0 +1,16 @@
+.Dice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
+}
+
+.Image {
+    max-width: 8vw;
+    height: auto;
+}
+
+.DiceButton {
+    align-items: center;
+
+}

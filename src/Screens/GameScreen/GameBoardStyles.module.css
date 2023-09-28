@@ -1,0 +1,617 @@
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100hw;
+}
+
+.tradeRow {
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: space-between; /* Distribute content horizontally */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.trade1 {
+  text-align: left;
+}
+
+.trade2 {
+  text-align: right;
+}
+
+.cash {
+  margin-right: 5vw;
+  text-align: left;
+}
+.viewProperties {
+  margin-left: 2vw;
+}
+
+.propertyButton {
+  margin-left: 15vw;
+  width: 2vw;
+}
+
+.propertyItem {
+  display: flex;
+}
+
+
+.GameBoardContainer {
+  display: flex; 
+  flex-direction: row; /* Change to column to stack items vertically */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space between items */
+  padding: 20px; /* Adjust the padding as needed */
+}
+  
+.centeredButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .Board {
+    max-width: 50vw; 
+    height: auto;
+
+  }
+ 
+  .flexColumn {
+    display: flex; 
+    flex-direction: column; /* Change to column to stack items vertically */  
+    align-items: center;
+
+  }
+
+  .playerContainer {
+    display: flex; 
+    flex-direction: row; /* Change to column to stack items vertically */  
+
+  }
+
+  .UserInterface {
+    width: 50vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .player {
+    width: 12.5vw;
+
+  }
+
+  .icon {
+    width: 3vw;
+    height: auto;
+  }
+
+  .bottom {
+    bottom: 0; /* Position it at the bottom */
+    right: 0; /* Position it at the right */
+    flex-direction: column;
+    }
+
+    .PlayerGrid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      grid-gap: 10px; /* Adjust the gap as needed */
+    }
+    
+    /* Add these styles for the dice container */
+    .DiceContainer {
+      width: 100%; /* Occupy full width */
+      display: flex;
+      justify-content: center; /* Center the dice component */
+      align-items: center; /* Center vertically */
+      margin-top: 10px; /* Adjust the margin as needed */
+    }
+
+    .Buttons {
+       margin-right: 2vw;
+    }
+
+
+
+.GoTile {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 12%; /* 5% of the viewport width */
+  height: 15%; /* 5% of the viewport height */
+  display: flex;
+  flex-wrap: wrap; /* Wrap icons to the next row if there are too many */
+  justify-content: center; /* Center icons horizontally */
+  align-items: center; /* Center icons vertically */
+
+}
+
+/* CSS for Mediterranean Avenue */
+.MediterraneanAve {
+  position: absolute;
+  bottom: 0;
+  right: 13%; 
+  width: 8%; 
+  height: 10%; 
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+.CommunityChest1 {
+  position: absolute;
+  bottom: 0;
+  right: 21.5%; 
+  width: 8%; 
+  height: 10%; 
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+/* CSS for Baltic Avenue */
+.BalticAve {
+position: absolute;
+bottom: 0;
+right: 29.5%;
+width: 8%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/* CSS for Income Tax */
+.IncomeTax {
+position: absolute;
+bottom: 0;
+right: 37.5%;
+width: 8%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/* CSS for Reading Railroad */
+.ReadingRailroad {
+position: absolute;
+bottom: 0;
+right: 45.5%;
+width: 8%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/* CSS for Oriental Avenue */
+.OrientalAve {
+position: absolute;
+bottom: 0;
+right: 54%;
+width: 8%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/* CSS for Chance 1 */
+.Chance1 {
+position: absolute;
+bottom: 0;
+right: 62%;
+width: 8%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/* CSS for Vermont Avenue */
+.VermontAve {
+position: absolute;
+bottom: 0;
+right: 70%;
+width: 8%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/* CSS for Connecticut Avenue */
+.ConnecticutAve {
+position: absolute;
+bottom: 0;
+right: 78%;
+width: 8%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/* CSS for Jail */
+.Jail {
+position: absolute;
+bottom: 0;
+right: 89%;
+width: 12%;
+height: 10%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.StCharlesPlace {
+position: absolute;
+bottom: 13%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.ElectricCompany {
+position: absolute;
+bottom: 21%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.StatesAve {
+position: absolute;
+bottom: 29.5%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.VirginiaAve {
+position: absolute;
+bottom: 37.5%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.PennsylvaniaRailroad {
+position: absolute;
+bottom: 45.5%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.StJamesPlace {
+position: absolute;
+bottom: 54%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.CommunityChest2 {
+position: absolute;
+bottom: 62%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.TennesseeAve {
+position: absolute;
+bottom: 70%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.NewYorkAve {
+position: absolute;
+bottom: 78%;
+right: 90%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.FreeParking {
+position: absolute;
+bottom: 91%;
+right: 89%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.KentuckyAve {
+position: absolute;
+bottom: 91%;
+right: 78%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.Chance2 {
+position: absolute;
+bottom: 91%;
+right: 70%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.IndianaAve {
+position: absolute;
+bottom: 91%;
+right: 62%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.IllinoisAve {
+position: absolute;
+bottom: 91%;
+right: 54%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.BORailroad {
+position: absolute;
+bottom: 91%;
+right: 45.5%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.AtlanticAve {
+position: absolute;
+bottom: 91%;
+right: 37.5%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+
+.VentorAve {
+position: absolute;
+bottom: 91%;
+right: 29.5%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.WaterWorks {
+position: absolute;
+bottom: 91%;
+right: 21.5%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.MarvinGardens {
+position: absolute;
+bottom: 91%;
+right: 13%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.GoToJail {
+position: absolute;
+bottom: 91%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.PacificAve {
+position: absolute;
+bottom: 78%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.NorthCarolinaAve {
+position: absolute;
+bottom: 70%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.CommunityChest3 {
+position: absolute;
+bottom: 62%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.PennsylvaniaAve {
+position: absolute;
+bottom: 54%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.ShortLine {
+position: absolute;
+bottom: 45.5%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.Chance3 {
+position: absolute;
+bottom: 37.5%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.ParkPlace {
+position: absolute;
+bottom: 29.5%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.LuxaryTax {
+position: absolute;
+bottom: 21%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.Boardwalk {
+position: absolute;
+bottom: 13%;
+right: 0%;
+width: 10%;
+height: 8%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
